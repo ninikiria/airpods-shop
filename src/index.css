@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+  background-color: #000000;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+ol,
+ul,
+li,
+footer,
+header,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.header_product {
+  width: 100%;
+  height: 46px;
+  /* background-color: rgb(69, 69, 69); */
+}
+
+.list_product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  vertical-align: top;
+  transition: 0.13s;
+  -webkit-transition: 0.13s;
+  -moz-transition: 0.13s;
+  -ms-transition: 0.13s;
+  -o-transition: 0.13s;
+}
+
+.list:hover {
+  text-decoration: underline;
+  color: blanchedalmond;
+  text-decoration-color: rgb(86, 85, 84);
+}
+
+.logo {
+  width: 13px;
+  color: white;
+}
+
+.icon {
+  font-size: 22px;
+  margin-left: 25px;
+}
